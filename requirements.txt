@@ -1,7 +1,5 @@
 fastapi
 uvicorn
 numpy==1.26.4
-tensorflow==2.15.0
+tensorflow-cpu==2.13.0
 Pillow
-pyngrok
-nest-asyncio
