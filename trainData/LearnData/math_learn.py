@@ -1,0 +1,38 @@
+TRAINING_DATA = [
+    {"question": "What is 2 + 2?", "think": "<think>Simple arithmetic: 2 + 2 = 4. Addition of two equal numbers gives 4.</think>"},
+    {"question": "Calculate 15 * 23", "think": "<think>Multiplication problem. 15 * 23 = 15*20 + 15*3 = 300 + 45 = 345</think>"},
+    {"question": "What's 100 divided by 4?", "think": "<think>Division: 100 / 4. Calculate: 25 * 4 = 100, so result is 25</think>"},
+    {"question": "Solve for x: 2x + 5 = 15", "think": "<think>Linear equation. Steps: 1) Subtract 5 from both sides: 2x = 10, 2) Divide by 2: x = 5</think>"},
+    {"question": "What is the square root of 144?", "think": "<think>Square root: find number that when multiplied by itself gives 144. 12 * 12 = 144, so answer is 12</think>"},
+    {"question": "Calculate 25% of 80", "think": "<think>Percentage calculation: 25% of 80 = 0.25 * 80 = 20</think>"},
+    {"question": "What is 7 factorial?", "think": "<think>Factorial: 7! = 7*6*5*4*3*2*1 = 5040</think>"},
+    {"question": "Solve the equation: 3x - 7 = 2x + 5", "think": "<think>Linear equation. Steps: 1) Move 2x to left: x - 7 = 5, 2) Add 7 to both sides: x = 12</think>"},
+    {"question": "What is the derivative of x^2?", "think": "<think>Calculus: derivative of x^2 using power rule. d/dx(x^2) = 2x</think>"},
+    {"question": "Calculate the area of a circle with radius 5", "think": "<think>Circle area formula: A = πr². With r=5: A = π*25 ≈ 78.54</think>"},
+]
+
+# Keep QUESTIONS for backward compatibility
+QUESTIONS = [q["question"] for q in TRAINING_DATA]
+    "What is the median of [1,2,3,4,5,6]?",
+    "Calculate the mode of [1,1,2,3,3,3,4]",
+    "What is the nth term of 3, 6, 12, 24?",
+    "Find the sum of 1/2 + 1/4 + 1/8 + ...",
+    "What is the harmonic mean of 2 and 8?",
+    "Calculate the geometric mean of 2, 8, and 32",
+    "What is the range of the data set [2,5,8,11,14]?",
+    "Solve: 5x^2 - 20x + 15 = 0",
+    "What is the period of sin(2x)?",
+    "Calculate the amplitude of 3cos(x)",
+    "What is the phase shift of sin(x - π/4)?",
+    "Find the vertical asymptote of 1/(x-2)",
+    "What is the horizontal asymptote of (2x+1)/(x-1)?",
+    "Calculate the concavity of y = x^3",
+    "What is the inflection point of y = x^3 - 3x?",
+    "Solve: arcsin(x) = π/6",
+    "What is the value of tan(π/4)?",
+    "Calculate cot(π/3)",
+    "What is the secant of π/6?",
+    "Find the cosecant of π/2",
+    "What is the sum of interior angles of a 10-sided polygon?",
+    "Calculate the area of a regular hexagon with side 4?",
+]
